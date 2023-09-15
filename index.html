@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sen:wght@700&display=swap" rel="stylesheet">
     <title>Finsweet</title>
 </head>
 <body>
@@ -39,33 +42,120 @@
                     </li>
                 </ul>
             </nav>
-            <button class="header_button">
+            <button class="header_button btn_reset">
                 Subscribe
             </button>
         </div>
     </header>
     <main class="main">
-        <section id="home" class="home">
-            <div class="container">
-                <p class="home_uptitle">
-                    Posted on <b>startup</b>
-                </p>
-                <h1 class="home_title">
-                    Step-by-step guide to choosing great font pairs
-                </h1>
-                <p class="home_autor">
-                    By <a href="#" class="home_autor-nameAutor">
-                        James West</a> | <time class="home_autor-time">
-                            May 23, 2022
-                        </time>
-                </p>
-                <p class="home_subtitle">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-                </p>
-                <button class="home_button">
-                    Read More >
-                </button>
+        <section id="home" class="home flex">
+            <div class="container home_container flex">
+                <div class="home_content">
+                    <p class="home_uptitle">
+                        Posted on <b>startup</b>
+                    </p>
+                    <h1 class="home_title">
+                        Step-by-step guide to choosing great font pairs
+                    </h1>
+                    <p class="home_autor autor">
+                        By <a href="#" class="home_autor-nameAutor autor-name">
+                            James West</a> | <time class="home_autor-time autor-time">
+                                May 23, 2022
+                            </time>
+                    </p>
+                    <p class="home_subtitle">
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                    </p>
+                    <button class="home_button btn_reset">
+                        Read More >
+                    </button>
+                </div>
             </div>
+        </section>
+        <section class="post">
+            <container class="container post_container flex">
+                <div class="post_content-left">
+                    <h2 class="post_content-title featured_title">
+                        Featured Post
+                    </h2>
+                    <div class="post_content-featured">
+                        <picture class="post_content-featured-image">
+                            <img src="./img/post_content.jpg" alt="">
+                        </picture>
+                        <p class="post_autor autor">
+                            By <a href="#" class="post_autor-nameAutor">
+                                John Doe</a> | <time class="post_autor-time">
+                                    May 23, 2022
+                                </time>
+                        </p>
+                        <h3 class="post_content-featured-title">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                        </h3>
+                        <p class="post_content-featured-subtitle">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                        </p>
+                        <button class="post_content-featured-btn btn_reset btn_yellow">
+                            Read More >
+                        </button>
+                    </div>
+                </div>
+                <div class="post_content-right">
+                    <div class="post_content-text flex">
+                        <h2 class="post_content-title all_title">
+                            All Posts
+                        </h2> 
+                        <a href="#" class="post_content-src">
+                            View All
+                        </a>
+                    </div>
+                    <aside class="post_content-all">
+                        <article class="post_content-all-content">
+                            <p class="article_autor autor">
+                                By <a href="#" class="post_autor- autor-name">
+                                    John Doe</a> | <time class="post_autor-time autor-time">
+                                        Aug 23, 2021
+                                    </time>
+                            </p>
+                            <h3 class="post_content-all-title">
+                                8 Figma design systems that you can download for free today.
+                            </h3>
+                        </article>
+                        <article class="post_content-all-content">
+                            <p class="article_autor autor">
+                                By <a href="#" class="post_autor-nameAutor">
+                                    John Doe</a> | <time class="post_autor-time">
+                                        Aug 23, 2021
+                                    </time>
+                            </p>
+                            <h3 class="post_content-all-title">
+                                8 Figma design systems that you can download for free today.
+                            </h3>
+                        </article>
+                        <article class="post_content-all-content">
+                            <p class="article_autor autor">
+                                By <a href="#" class="post_autor-nameAutor">
+                                    John Doe</a> | <time class="post_autor-time">
+                                        Aug 23, 2021
+                                    </time>
+                            </p>
+                            <h3 class="post_content-all-title">
+                                8 Figma design systems that you can download for free today.
+                            </h3>
+                        </article>
+                        <article class="post_content-all-content">
+                            <p class="article _autor autor">
+                                By <a href="#" class="post_autor-nameAutor">
+                                    John Doe</a> | <time class="post_autor-time">
+                                        Aug 23, 2021
+                                    </time>
+                            </p>
+                            <h3 class="post_content-all-title">
+                                8 Figma design systems that you can download for free today.
+                            </h3>
+                        </article>
+                    </aside>
+                </div>
+            </container>
         </section>
     </main>
     <footer class="footer">
