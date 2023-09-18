@@ -186,8 +186,30 @@ img {
     padding-bottom: 32px;
 }
 /* all content */
+.post_content-right {
+    padding-left: 30px;
+}
 .post_content-text {
     align-items: center;
     justify-content: space-between;
 }
-.
+.post_content-all-content {
+    height: 180px;
+    width: 510px;
+}
+.post_content-all-title {
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 70%;
+    padding-left: 40px;
+}
+.article_autor {
+    padding-left: 40px;
+}
+.post_content-src {
+    color: #592EA9;
+    text-decoration: none;
+}
