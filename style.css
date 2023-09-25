@@ -17,7 +17,7 @@ img {
     padding: 0;
     list-style: none;
 }
-.container { 
+.container {
     width: 1280px;
     margin: 0 auto;
 }
@@ -513,12 +513,12 @@ img {
 }
 
 /* Testi */
-.testi {
-    
-}
 .testi_container {
     background-color: #FBF6EA;
     padding: 90px;
+}
+.testi_left {
+    padding-right: 90px;
 }
 .testi_left-uptitle {
     font-family: Inter;
@@ -549,14 +549,25 @@ img {
     border: solid 1px #6D6E76;
     opacity: 0.4;
 }
+.testi_right {
+    padding-left: 90px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
 .testi_right-title {
     font-family: Sen;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 32px; /* 133.333% */
+    width: 60%;
 }
 .testi_right-autor {
+    padding-left: 5px;
+    padding-right: 130px;
+}
+.testi_right-name {
     font-family: Sen;
     font-size: 24px;
     font-style: normal;
@@ -571,20 +582,24 @@ img {
     font-weight: 400;
     line-height: 28px; /* 175% */
 }
-/* .arrow {
-    align-content: center;
-    justify-content: center;
-} */
 .arrow-left {
     background-color: #FFF;
+    background-image: url(/img/Arrow\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 50%;
     height: 24px;
     width: 24px;
     padding: 10px;
+    margin-right: 30px;
 
 }
 .arrow-right {
     background-color: #FFF;
+    background-image: url(/img/Arrow\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(-1);
     border-radius: 50%;
     height: 24px;
     width: 24px;
@@ -592,6 +607,10 @@ img {
 }
 .arrow-left:hover {
     background-color: #000000;
+    background-image: url(/img/Arrow\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(-1);
     border-radius: 50%;
     height: 32px;
     width: 32px;
@@ -599,8 +618,12 @@ img {
 }
 .arrow-right:hover {
     background-color: #000000;
+    background-image: url(/img/Arrow\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(1);
     border-radius: 50%;
-    height: 24px;
-    width: 24px;
+    height: 32px;
+    width: 32px;
     padding: 10px;
 }
