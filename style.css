@@ -513,6 +513,9 @@ img {
 }
 
 /* Testi */
+.testi {
+    box-sizing: content-box;
+}
 .testi_container {
     background-color: #FBF6EA;
     padding: 90px;
